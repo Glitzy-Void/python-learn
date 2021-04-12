@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(void)
 {
-    double r,h;
+    float r,h;
     //设圆半径r，圆柱高h。为了便于后续计算。设变量为double型
-    double c,s,sq,vq,vz;
+    float c,s,sq,vq,vz;
     //设圆周长，圆面积，圆表面积，圆球体积，圆柱体积
-    double pi=3.1415926;
+    float pi=3.1415926;
     printf("请输入圆半径:\n");
     scanf("%f",&r);
     printf("请输入圆柱高:\n");
