@@ -32,7 +32,7 @@ int main(void)
     printf("ave:  \t %f\t%f\t%f",c_ave[0],c_ave[1],c_ave[2]);
     printf("------------------------------------");
     printf("student:");
-    for(;)
+    for(;m<=i;)
     {
         printf("\t| student %d | student %d | student %d | student %d |",m+1,m+2,m+3,m+4);
         printf("score | %7.2f | %7.2f | %7.2f | %7.2f |",s_score[m],s_score[m],s_score[m],s_score[m]);
